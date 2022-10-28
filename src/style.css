@@ -1,0 +1,57 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bar-chart {
+    width: 50%;
+  }
+  
+  .area-chart {
+    width: 50%;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .area-chart-label-subheader {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    h1 {
+      font-size: 14px;
+    }
+  
+    .area-chart-label-subheader {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .chart-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .bar-chart {
+      width: 100%;
+    }
+  
+    .area-chart {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 12px;
+    }
+  
+    .area-chart-label-subheader {
+      font-size: 10px;
+    }
+  }
+  
